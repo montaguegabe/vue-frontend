@@ -1,6 +1,10 @@
-# vue-frontend
+# vue-webpack-extended
 
-> A Vue.js project
+Takes the scaffolding of [vue-webpack-boilerplate](https://github.com/vuejs-templates/webpack) and adds the following:
+1) Circle CI support
+2) SCSS
+3) Separate files in the place of `.vue` files
+4) Crockford style and linting
 
 ## Build Setup
 
