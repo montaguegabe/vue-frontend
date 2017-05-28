@@ -30,6 +30,7 @@ module.exports = {
         // Allow debugger during development
         'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
 
+        // Relax rules a little
         'one-var': 'off',
         'vars-on-top': 'off'
     }
