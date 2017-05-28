@@ -6,6 +6,8 @@ Takes the scaffolding of [vue-webpack-boilerplate](https://github.com/vuejs-temp
 2) SCSS
 3) Separate files in the place of `.vue` files
 4) Crockford style and linting
+5) HTML boilerplate
+6) Git precommit linting
 
 ## Build Setup
 
