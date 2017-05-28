@@ -1,4 +1,5 @@
-# vue-webpack-extended
+# vue-webpack-extended [![CircleCI](https://circleci.com/gh/montaguegabe/vue-webpack-extended.svg?style=shield)](https://circleci.com/gh/montaguegabe/vue-webpack-extended)
+
 
 Takes the scaffolding of [vue-webpack-boilerplate](https://github.com/vuejs-templates/webpack) and adds the following:
 1) Circle CI support
@@ -9,25 +10,25 @@ Takes the scaffolding of [vue-webpack-boilerplate](https://github.com/vuejs-temp
 ## Build Setup
 
 ``` bash
-# install dependencies
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# Serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+# Build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
+# Build for production and view the bundle analyzer report
 npm run build --report
 
-# run unit tests
+# Run unit tests
 npm run unit
 
-# run e2e tests
+# Run e2e tests
 npm run e2e
 
-# run all tests
+# Run all tests
 npm test
 ```
 
