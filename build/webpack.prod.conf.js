@@ -94,7 +94,14 @@ var webpackConfig = merge(baseWebpackConfig, {
             from: path.resolve(__dirname, '../static'),
             to: config.build.assetsSubDirectory,
             ignore: ['.*']
-        }])
+        }]),
+
+        // Copy root items
+        new CopyWebpackPlugin([{
+            from: path.resolve(__dirname, '../rootfiles'),
+            to: config.build.assetsRoot,
+            ignore: ['.*']
+        }]),
     ]
 });
 
