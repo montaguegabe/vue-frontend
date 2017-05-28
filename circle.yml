@@ -1,3 +1,10 @@
 machine:
   node:
     version: 6
+
+dependencies:
+    override:
+        #new chromedriver
+        - wget https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip
+        - unzip chromedriver_linux64.zip
+        - sudo cp chromedriver /usr/local/bin/chromedriver
