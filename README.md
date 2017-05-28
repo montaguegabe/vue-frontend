@@ -4,10 +4,9 @@
 Takes the scaffolding of [vue-webpack-boilerplate](https://github.com/vuejs-templates/webpack) and adds the following:
 1) Circle CI support
 2) SCSS
-3) Separate files in the place of `.vue` files
-4) Crockford style and linting
-5) HTML boilerplate
-6) Git precommit linting
+3) Crockford style and linting
+4) HTML boilerplate
+5) Git precommit linting
 
 ## Build Setup
 
