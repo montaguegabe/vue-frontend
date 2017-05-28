@@ -1,2 +1,2 @@
 # Netlify redirects so that we can eliminate hash in URLs
-/   /index.html
+/   /
